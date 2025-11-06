@@ -1,5 +1,5 @@
-# HMamba
-HMamba: Hyperbolic Mamba for Sequential Recommendation
+# HMamba: Hyperbolic Mamba for Sequential Recommendation
+Sequential recommendation systems require both temporal efficiency to handle long interaction histories and hierarchical representation to model complex user-item relationships. Existing approaches face a fundamental tension: Mamba-based methods offer linear-time efficiency (O (𝐿)) but operate in Euclidean space, which distorts hierarchical patterns; hyperbolic models capture taxonomies well but suffer quadratic complexity  (O (𝐿2 )). To solve this dual challenge, we propose Hyperbolic Mamba (HMamba), the first architecture that unifies curvature-aware state spaces with hyperbolic geometry. Our key insight is that hyperbolic curvature $\kappa$ simultaneously governs: (1) state transition granularity through ¯A = exp(ΔA ⊙ K(𝜅 ) ) and (2) hierarchical distance preservation via𝑑L ∝ √𝜅 log(·). This enables joint optimization of efficiency and hierarchy - addressing the previously unsolved problem of deep-long modeling. Experiments show HMamba achieves 3-11% accuracy gains while maintaining 3.2 × faster training than attention-based models, establishing a new paradigm for hierarchy-aware sequential recommendation
 
 ## Usage
 
