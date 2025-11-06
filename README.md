@@ -12,4 +12,8 @@ HMamba: Hyperbolic Mamba for Sequential Recommendation
   * `pip install recbole`
 * Install causal Conv1d and the core Mamba package:
   * `pip install causal-conv1d>=1.2.0`
-  * `pip install mamba-ssm
+  * `pip install mamba-ssm`
+
+### Run
+
+```python run.py```
